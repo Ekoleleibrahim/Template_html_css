@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template Html-Css</title>
+    <meta name="description" content="Template Html-Css">
+    <meta name="keywords" content="Template, HTML, CSS">
+    <meta name="author" content="Ibrahim Ekolele">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        ul{
+            list-style: none;
+        }
+        ul.nav-bar{
+            background-color: rgb(56, 13, 56);
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .nav-bar li{
+            float: left;
+        }
+
+        .nav-bar li a{
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.746);
+            padding: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nav-bar li a:hover{
+            background-color: rgb(81, 18, 81);
+            color: #fff;
+        }
+        .accueil{
+            padding: 50px;
+            /* background-color: rgb(47, 11, 47); */
+            background: url(images/banniere.jpg) no-repeat fixed, rgb(255, 255, 255) scroll;
+            color: #fff;
+            padding: 100px 100px 0;
+            height: 60vh;
+        }
+        h1{
+            text-align: center;
+        }
+        .accueil p,.services ul li p{
+            text-align: justify;
+            font-size: 3vh;
+        }
+        .accueil a{
+            display: inline-block;
+            text-decoration: none;
+            background-color: rgb(161, 37, 161);
+            padding: 15px 50px;
+            border-radius: 4px;
+            color: rgb(206, 201, 201);
+            font-family: sans-serif;
+        }
+        .accueil a:hover{
+            background-color: rgba(136, 29, 136, 0.859);
+            color: #fff;
+        }
+
+        .services,.articles,.contact{
+            width: 800px;
+            margin: auto;
+            padding: 100px;
+        }
+        h2{
+            text-align: center;
+            color: rgb(96, 12, 96);
+            font-size: 25px;
+            border: 3px solid rgb(96, 12, 96);
+        }
+        h3{
+            text-align: center;
+        }
+        .services ul{
+            display: flex;
+            padding: 0;
+        }
+        .services ul li{
+            padding: 20px;
+            background-color: rgb(76, 24, 76);
+            color: #fff;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .services ul li:hover{
+            background-color: rgb(90, 26, 90);
+        }
+        .services ul li p{
+            text-align: center;
+        }
+        .services div a{
+            display: inline-block;
+            text-decoration: none;
+            background-color: rgba(161, 37, 161, 0.677);
+            color: rgb(222, 217, 217);
+            padding: 10px;
+            border-radius: 5px;
+            font-family: sans-serif;
+        }
+        .services div a:hover{
+            background-color: rgb(173, 35, 173);
+            color: #fff;
+            
+        }
+
+        .conteneur1,.conteneur2{
+            display: flex;
+        }
+        .conteneur1 a,.conteneur2 a{
+            display: block;
+            padding:120px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+        
+        .element1{
+            background-image: url(images/foot.jpg);
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: cover;
+        }
+        .element2{
+            background-image: url(images/basket.jpg);
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: cover;
+        }
+        .element3{
+            background-image: url(images/volley.jpg);
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: cover;
+        }
+        .element4{
+            background-image: url(images/tennis.jpg);
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: cover;
+        }
+        .element5{
+            background-image: url(images/golf.jpg);
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: cover;
+        }
+        .element6{
+            background-image: url(images/rugby.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        } 
+        address{
+            padding: 10px;
+            font-style: normal;
+            color: rgb(6, 1, 6)
+            ;
+            font-weight: bold;
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="">Accueil</a></li>
+                <li><a href="#section-services">Services</a></li>
+                <li><a href="#section-articles">Articles</a></li>
+                <li><a href="#section-contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="accueil">
+        <h1 id="section-accueil">Bienvenue Chez Nous</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus 
+           eligendi deleniti ut dicta eveniet facere culpa ab. Voluptas similique excepturi cupiditate expedita necessitatibus vero ipsa libero eveniet, quam, incidunt repellendus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ipsam, quidem cum perferendis culpa nisi eveniet magnam! Neque temporibus consectetur quis cupiditate aliquam, porro et unde aperiam reprehenderit sunt ab  Neque temporibus consectetur quis cupiditate aliquam, porro et unde aperiam reprehenderit sunt ab porro et unde aperiam reprehenderit.</p>
+        <div style="text-align: center;margin-top: 50px;">
+            <a href="mailto:ekoleleibrahim8@gmail.com">Contactez-nous</a>
+        </div>
+    </section>
+
+
+    <section class="services">
+        <h2 id="section-services">Nos Services</h2>
+        <ul class="liste-services">
+            <li>
+                <h3>Services 1</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptatibus, quos fugit earum nam reprehenderit blanditiis.</p>
+                <div style="text-align: center;">
+                    <a href="">En savoir plus</a>
+                </div>
+            </li>
+            <li>
+                <h3>Services 2</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptatibus, quos fugit earum nam reprehenderit blanditiis.</p>
+                <div style="text-align: center;">
+                    <a href="">En savoir plus</a>
+                </div>
+            </li>
+            <li>
+                <h3>Services 3</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptatibus, quos fugit earum nam reprehenderit blanditiis.</p>
+                <div style="text-align: center;">
+                    <a href="">En savoir plus</a>
+                </div>
+            </li>
+        </ul>
+        <p style="text-align: justify;color: rgb(69, 9, 69);">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptates dicta. Quas voluptatibus fuga quos, cupiditate architecto sunt laudantium. Amet veritatis, voluptates nisi illum iure natus autem. Numquam, sint illo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, laudantium porro facilis iure ea at, dolore officiis, sint impedit exercitationem nam sed vero ad culpa accusamus aliquam expedita ex? Sed! Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nihil vitae explicabo adipisci totam? Tenetur error minus laborum distinctio neque magni placeat maiores voluptatum, natus iste officia eaque, aspernatur quisquam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam eveniet ex vel eos nesciunt laboriosam obcaecati maxime aliquam ea voluptate libero quod voluptatum, harum ipsam quaerat? Facilis assumenda illo ab.
+        </p>
+    </section>
+    <hr>
+    <section class="articles">
+        <h2 id="section-articles">Nos Articles</h2>
+        <div class="conteneur1">
+            <a href="" class="element element1"></a>
+            <a href="" class="element element2"></a>
+            <a href="" class="element element3"></a>
+        </div>
+        <div class="conteneur2">
+            <a href="" class="element element4"></a>
+            <a href="" class="element element5"></a>
+            <a href="" class="element element6"></a>
+        </div>
+    </section>
+
+    <div class="contact">
+        <h2 id="section-contact">Nous-Contacter</h2>
+        <p style="text-align: justify;color: rgb(69, 9, 69);">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius sequi quisquam veritatis quis, quod dicta tenetur facilis voluptate minima quasi asperiores, officia at recusandae voluptas delectus doloribus quia dolorem voluptatum:</p>
+        <div style="text-align: center;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31822.67401203988!2d15.231272578239457!3d-4.4419327972576035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a3b13ccae6a6f%3A0x3b56d60a95cfc840!2sPlateau%20des%20Etudiants!5e0!3m2!1sen!2sus!4v1702208731473!5m2!1sen!2sus" style="border:0;width: 100%;height: 250px;border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Oups!erreur de chargement du iframe.</iframe>
+        </div>
+    </div>
+</body>
+</html>
